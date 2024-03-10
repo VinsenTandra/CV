@@ -1,0 +1,216 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+        <title>Vinsen Tandra</title>
+        <style>
+            * {
+                font-family: "Roboto Condensed", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 500;
+                font-style: normal;
+            }
+
+            body{
+                height: 297mm;
+                width: 210mm;
+                margin: 0 auto;
+            }
+
+            a{
+                text-decoration: none;
+                color:#333;
+            }
+
+            .paper{
+                height: 100%;
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .left-side-paper{
+                background: #9BB0C1;
+                width: 45%;
+                height: 100%;
+                padding: 8px;
+            }
+
+            #nama_profil{
+                margin: 15px auto 0;
+                text-align: left;
+                flex: 0 0 100%;
+            }
+
+            .bio{
+                gap: 30px;
+                width: 90%;
+                margin: 0 auto;
+            }
+
+            .bio,.education{
+                display: flex;
+                flex-wrap: wrap;
+            }
+
+            .position{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+            }
+
+            .icon{
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                margin: 0;
+                color:#333;
+            }
+
+            .histories{
+                flex: 0 0 100%;
+                color:#333;
+                display: flex;
+                flex-wrap: wrap;
+                gap: 40px;
+                margin: 20px 0 0;
+            }
+
+            .histories p{
+                margin: 0;
+            }
+
+            h1 {
+                font-size:3em;
+                margin: 10px auto 0;
+                color: #333;
+            }
+
+            h4 {
+                font-size:1.5em;
+                padding-bottom: 5px;
+                padding-top: 1px;
+                color: #333;
+                margin: 0;
+            }
+
+            #foto_profil {
+                margin-right: 50px;
+                margin-left: 50px;
+            }
+
+            #foto_profil img {
+                border-radius: 50%;
+            }
+
+            #footer {
+                background: #9BB0C1;
+                padding-top: 10px;
+                width: 100%
+            }
+
+            .right-side-paper{
+                background-color: #FFF;
+                width: 50%;
+                margin-top: 30px;
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column;
+                gap: 30px;
+            }
+
+            .summary{
+                text-align: justify;
+            }
+
+            :where(.summary, .work-experiences, .volunteer-experiences) h2{
+                background-color: #B7D8F1;
+                padding: 10px;
+                margin: 0 auto;
+            }
+
+            .volunteer-experience .year, .work-experience .year{
+                margin: 20px 0;
+            }
+
+        </style>
+    </head>
+    <body>
+        <div class="paper">
+            <div class="left-side-paper">
+                <div id="foto_profil">
+                    <img src="foto formal.jpg" width="270" height="270">
+                </div>
+                <div class="bio">
+                    <div id="nama_profil">
+                        <h1>Vinsen Tandra</h1>
+                        <h4>Digital Business Analyst</h4>
+                    </div>
+
+                    <div class="position">
+
+                        <a href="https://www.instagram.com/vinsentandra__/?hl=en" class="icon">
+                            <img src="ig.png" width="24" height="24"> @vinsentandra__
+                        </a>
+                        <div class="icon">
+                            <img src="email.png" width="24" height="24"> vinsen.tandra@itbss.ac.id
+                        </div>
+                        <a href="https://www.linkedin.com/in/vinsen-tandra/" class="icon">
+                           <img src="linkedin.png" width="24" height="24">LinkedIn Profile 
+                        </a>
+                    </div>
+
+                    <div class="education">
+                        <h4><u>Education</u></h4>
+                        <div class="histories">
+                            <div class="education-history">
+                                <p>2019 - 2022</p>
+                                <h4>Santu Petrus Senior High School</h4>
+                                <p>Majoring in Natural Science</p>
+                            </div>
+                            <div class="education-history">
+                                <p>2022 - Now</p>
+                                <h4>Institute of Technology & Business SABDA SETIA</h4>
+                                <p>Majoring in Digital Business</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            
+            <div class="right-side-paper">
+                <div class="summary">
+                    <h2>Summary</h2>
+                    <p>A passionate and dedicated Digital Business Analyst with a deep enthusiasm for harnessing the power of technology to drive business success. My toolkit includes proficiency in various data analysis tools and programming languages such as SQL, Python, and Javascript. I am deeply passionate about innovation and keeping up-to-date with the latest trends in the digital landscape.</p>
+                </div>
+                <div class="work-experiences">
+                    <h2>Work Experience</h2>
+                    <div class="histories">
+                        <div class="work-experience">
+                            <p class="year">2023 - Now</p>
+                            <h4>Owner of Chicken World</h4>
+                            <p>An Owner to a chicken restaurant that only running from social media and sells several variants of chicken with sauces from several worlds.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="volunteer-experiences">
+                    <h2>Volunteer Experience</h2>
+                    <div class="histories">
+                        <div class="volunteer-experience">
+                            <p class="year">2022 - 2023</p>
+                            <h4>Member of HIMBISDI’s Digipreneurship</h4>
+                            <p>Deepening my knowledge about how to making business and actively enhancing skills in marketing and accounting.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+                
+
+
+
+    </body>
+
+</html>
+
